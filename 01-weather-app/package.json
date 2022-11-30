@@ -10,8 +10,10 @@
   },
   "dependencies": {
     "react": "^18.2.0",
+    "react-accessible-accordion": "^5.0.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.6.0",
+    "react-select-async-paginate": "^0.7.0",
     "uuid": "^9.0.0"
   },
   "devDependencies": {

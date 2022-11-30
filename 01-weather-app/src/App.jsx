@@ -5,23 +5,25 @@
   - The app must be responsive and mobile friendly
 */
 /*------------------------------------------------------------------------- */
-import { useState } from 'react'
-import Forms from "./components/Forms"
-import "./sass/main.scss"
+import {useState} from "react";
+import Search from "./components/Search";
+import "./sass/main.scss";
 
 function App() {
-  return (
-    <>
-    <section className='rounded-lg flex flex-col h-max p-6 bg-blue-500'>
-    <header className=' text-white'>
-      <h1 className='text-3xl text-transform: uppercase font-bold p-5'>My Weather App</h1>
-    </header>
-    <main>
-      <Forms />
-    </main>
-    </section>
-    </>
-  )
+    return (
+        <div className="container">
+            <section className="rounded-lg flex flex-col h-max p-6 bg-blue-500">
+                <header className=" text-white">
+                    <h1 className="text-3xl text-transform: uppercase font-bold p-5">
+                        My Weather App
+                    </h1>
+                </header>
+                <main>
+                    <Search />
+                </main>
+            </section>
+        </div>
+    );
 }
 
-export default App
+export default App;
